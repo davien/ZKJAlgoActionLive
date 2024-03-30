@@ -1,0 +1,6 @@
+framework module libidcardocr {
+  umbrella header "libidcardocr.h"
+  export *
+
+  module * { export * }
+}

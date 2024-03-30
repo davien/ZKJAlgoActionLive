@@ -1,0 +1,32 @@
+PODS:
+  - ZKJAlgoActionLive (0.1.0):
+    - ZKJAlgoActionLive/LibActionLive (= 0.1.0)
+    - ZKJAlgoActionLive/libidcardocr (= 0.1.0)
+  - ZKJAlgoActionLive/LibActionLive (0.1.0):
+    - ZKJAlgoBaseAbility
+  - ZKJAlgoActionLive/libidcardocr (0.1.0):
+    - ZKJAlgoBaseAbility
+  - ZKJAlgoBaseAbility (0.1.0):
+    - ZKJAlgoBaseAbility/MSMNN (= 0.1.0)
+    - ZKJAlgoBaseAbility/opencv2 (= 0.1.0)
+  - ZKJAlgoBaseAbility/MSMNN (0.1.0)
+  - ZKJAlgoBaseAbility/opencv2 (0.1.0)
+
+DEPENDENCIES:
+  - ZKJAlgoActionLive (from `../`)
+
+SPEC REPOS:
+  https://github.com/davien/ZKJAlgoBaseAbility.git:
+    - ZKJAlgoBaseAbility
+
+EXTERNAL SOURCES:
+  ZKJAlgoActionLive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZKJAlgoActionLive: b3c10b5615f186e5e42701e538a5159e1dfa77d0
+  ZKJAlgoBaseAbility: 3a5db4397c65fd83e93454dfa07ce10a9f5bbc6a
+
+PODFILE CHECKSUM: e3ac49ab4dee596b42bd96c21e8e09b1af671246
+
+COCOAPODS: 1.15.2

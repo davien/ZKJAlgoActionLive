@@ -1,0 +1,16 @@
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git' # 默认源
+source 'https://github.com/davien/ZKJAlgoBaseAbility.git'
+
+platform :ios, '10.0'
+
+target 'ZKJAlgoActionLive_Example' do
+  pod 'ZKJAlgoActionLive', :path => '../'
+
+  target 'ZKJAlgoActionLive_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

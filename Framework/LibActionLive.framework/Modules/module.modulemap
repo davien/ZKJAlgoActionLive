@@ -1,0 +1,6 @@
+framework module LibActionLive {
+  umbrella header "LibActionLive.h"
+  export *
+
+  module * { export * }
+}
